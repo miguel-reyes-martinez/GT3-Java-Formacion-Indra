@@ -4,5 +4,5 @@ Los siguientes ejercicios forman parte de una relación de ejercicios asiganada 
 
 ## Lista de ejercicios
 
-* [Ejercicio 1 - Calculadora](Ejercicio1/README.md)
-* [Ejercicio 2 - Recursos Humanos](Ejercicio2/README.md)
+* [Ejercicio 1 - Calculadora](Ejercicio1/)
+* [Ejercicio 2 - Recursos Humanos](Ejercicio2/)
