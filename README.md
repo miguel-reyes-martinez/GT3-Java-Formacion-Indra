@@ -8,3 +8,4 @@ Los siguientes ejercicios forman parte de una relación de ejercicios asiganada 
 * [Ejercicio 2 - Recursos Humanos](Ejercicio2/)
 * [Ejercicio 3 - Eliminar elementos repetidos](Ejercicio3/)
 * [Ejercicio 4 - Panel de información sobre tu ciudad](Ejercicio4/)
+* [Ejercicio 5 - JSONArray](Ejercicio5/)
