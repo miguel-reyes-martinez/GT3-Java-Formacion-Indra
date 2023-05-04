@@ -1,0 +1,9 @@
+Nombre Empresa       Nombre Vuelo         Nº Pasajeros         Tipo Pasaje          Precio Vuelo         Fecha Vuelo          Dias de diferencia   Valor Final          ¿Es rentable?       
+Iberia               BUENOS_AIRES         10                   ECONOMICO            100,00               2023-01-01           123                  1000.0               RENTABLE            
+Iberia               BUENOS_AIRES         20                   PREMIER              250,00               2023-01-01           123                  5000.0               RENTABLE            
+Iberia               BARCELONA            10                   ECONOMICO            25,00                2022-02-02           456                  250.0                RENTABLE            
+Iberia               BARCELONA            10                   PREMIER              50,00                2022-02-02           456                  500.0                NO RENTABLE         
+Iberia               NEW_YORK             25                   ECONOMICO            300,00               2022-01-01           488                  7500.0               RENTABLE            
+Iberia               NEW_YORK             25                   PREMIER              600,00               2022-01-01           488                  15000.0              RENTABLE            
+Iberia               TOKYO                10                   ECONOMICO            1500,00              2023-01-01           123                  15000.0              RENTABLE            
+Iberia               TOKYO                10                   PREMIER              2000,00              2023-01-01           123                  20000.0              RENTABLE            
