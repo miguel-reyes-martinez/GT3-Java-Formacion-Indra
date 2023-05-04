@@ -9,3 +9,6 @@ Los siguientes ejercicios forman parte de una relación de ejercicios asiganada 
 * [Ejercicio 3 - Eliminar elementos repetidos](Ejercicio3/)
 * [Ejercicio 4 - Panel de información sobre tu ciudad](Ejercicio4/)
 * [Ejercicio 5 - JSONArray](Ejercicio5/)
+* [Ejercicio 6 - App Gatitos](Ejercicio6/)
+* [Ejercicio 7 - Aspectos](Ejercicio7/)
+* [Ejercicio Integrador 1 - Vuelos](EjercicioIntegrador1/)
