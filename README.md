@@ -10,5 +10,6 @@ Los siguientes ejercicios forman parte de una relación de ejercicios asiganada 
 * [Ejercicio 4 - Panel de información sobre tu ciudad](Ejercicio4/)
 * [Ejercicio 5 - JSONArray](Ejercicio5/)
 * [Ejercicio 6 - App Gatitos](Ejercicio6/)
-* [Ejercicio 7 - Aspectos](Ejercicio7/)
+* [Ejercicio 7 - Aspectos I](Ejercicio7/)
+* [Ejercicio 8 - Aspectos II](Ejercicio8/)
 * [Ejercicio Integrador 1 - Vuelos](EjercicioIntegrador1/)
