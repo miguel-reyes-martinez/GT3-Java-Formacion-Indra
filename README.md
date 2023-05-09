@@ -12,4 +12,6 @@ Los siguientes ejercicios forman parte de una relación de ejercicios asiganada 
 * [Ejercicio 6 - App Gatitos](Ejercicio6/)
 * [Ejercicio 7 - Aspectos I](Ejercicio7/)
 * [Ejercicio 8 - Aspectos II](Ejercicio8/)
+* [Ejercicio 9 - Diagrama Entidad/Relación](Ejercicio9/)
+* [Ejercicio 10 - Pipeline de Jenkins](Ejercicio10/)
 * [Ejercicio Integrador 1 - Vuelos](EjercicioIntegrador1/)

@@ -1,0 +1,47 @@
+pipeline {
+    agent any
+    parameters {
+        string(name: 'num1', description: 'Introduzca el primer número')
+        string(name: 'num2', description: 'Introduzca el segundo número')
+    }
+    stages {
+        stage('Suma') {
+            steps {
+                script {
+                    def result = params.num1.toInteger() + params.num2.toInteger()
+                    echo "La suma de ${params.num1} y ${params.num2} es $result"
+                }
+            }
+        }
+        stage('Resta') {
+            steps {
+                script {
+                    def result = params.num1.toInteger() - params.num2.toInteger()
+                    echo "La resta de ${params.num1} y ${params.num2} es $result"
+                }
+            }
+        }
+        stage('Multiplicacion') {
+            steps {
+                script {
+                    def result = params.num1.toInteger() * params.num2.toInteger()
+                    echo "La multiplicacion de ${params.num1} y ${params.num2} es $result"
+                }
+            }
+        }
+        stage('Division') {
+            steps {
+                script {
+                    def a = params.num1.toInteger()
+                    def b = params.num2.toInteger()
+                    if (b == 0) {
+                        error("No se puede dividir por 0")
+                    } else {
+                        def result = a / b
+                        echo "La division de ${params.num1} y ${params.num2} es $result"
+                    }
+                }
+            }
+        }
+    }
+}
