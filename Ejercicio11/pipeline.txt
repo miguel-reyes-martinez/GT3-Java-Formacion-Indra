@@ -1,0 +1,62 @@
+pipeline {
+    agent any
+    parameters {
+        string(name: 'num1', description: 'Ingrese el primer número')
+        string(name: 'num2', description: 'Ingrese el segundo número')
+    }
+    stages {
+        stage('Suma') {
+            steps {
+                script {
+                    def result = params.num1.toInteger() + params.num2.toInteger()
+                    env.suma = result
+                }
+            }
+        }
+        stage('Resta') {
+            steps {
+                script {
+                    def result = params.num1.toInteger() - params.num2.toInteger()
+                    env.resta = result
+                }
+            }
+        }
+        stage('Multiplicacion') {
+            steps {
+                script {
+                    def result = params.num1.toInteger() * params.num2.toInteger()
+                    env.multiplicacion = result
+                }
+            }
+        }
+        stage('Division') {
+            steps {
+                script {
+                    def a = params.num1.toInteger()
+                    def b = params.num2.toInteger()
+                    if (b == 0) {
+                        error("No se puede dividir por 0")
+                    } else {
+                        def result = a / b
+                        env.division = result
+                    }
+                }
+            }
+        }
+        stage('Resultados') {
+            steps {
+                script {
+                    def content = "Primer número: ${params.num1}\n" +
+                            "Segundo número: ${params.num2}\n" +
+                            "--------------------------------------\n" +
+                            "Los resultados son:\n" +
+                            "  Suma: ${env.suma}\n" +
+                            "  Resta: ${env.resta}\n" +
+                            "  Multiplicacion: ${env.multiplicacion}\n" +
+                            "  Division: ${env.division}\n"
+                    writeFile file: 'resultados.txt', text: content
+                }
+            }
+        }
+    }
+}
