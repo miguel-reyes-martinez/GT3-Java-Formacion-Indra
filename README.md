@@ -2,7 +2,9 @@
 
 Los siguientes ejercicios forman parte de una relación de ejercicios asiganada por el organizador, con el fin de ser evaluados para la superación del curso.
 
->:warning: **Los ejercicios de jenkins están subidos en repositorio a parte, link en la lista de ejercicios**
+> **Warning** 
+> 
+> Los ejercicios de jenkins están subidos en repositorio a parte, link en la lista de ejercicios
 
 ## Lista de ejercicios
 
