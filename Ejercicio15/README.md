@@ -6,5 +6,6 @@ Desarrollar un programa que permita a los usuarios registrarse en nuestra aplica
 - Apellido 
 - Correo 
 - Nombre de usuario 
- 
+
+
 El programa debe implementar el patron de diseño MVC Clasico. 
