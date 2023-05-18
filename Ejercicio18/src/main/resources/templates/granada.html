@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title th:text="${granada.nombre}"></title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 th:text="${granada.nombre}"></h1>
+        <div class="campo">
+            <label>Nombre del lugar:</label>
+            <span th:text="${granada.nombre}"></span>
+        </div>
+        <div class="campo">
+            <label>Cantidad de habitantes:</label>
+            <span th:text="${granada.cantidadHabitantes}"></span>
+        </div>
+        <div class="campo">
+            <label>Clima:</label>
+            <span th:text="${granada.clima}"></span>
+        </div>
+        <h2>Lugares que deberíamos conocer</h2>
+        <ul class="lugares-lista">
+            <li th:each="lugar : ${granada.lugaresConocer}" th:text="${lugar}"></li>
+        </ul>
+    </div>
+    
+    <div class="container">
+        <h2>Imágenes ilustrativas</h2>
+        <div>
+            <ul class="imagen-lista">
+                <li th:each="imagen : ${granada.imagenes}">
+                    <img th:src="@{/images/__${imagen}__}" alt="Imagen">
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
