@@ -1,0 +1,4 @@
+
+enum Posicion {
+	INGENIERO, ANALISTA, GERENTE
+}

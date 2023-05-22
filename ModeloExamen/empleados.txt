@@ -1,0 +1,63 @@
+{
+  "nombre": "María",
+  "apellido": "Martínez",
+  "fechaIngreso": {
+    "year": 2010,
+    "month": 1,
+    "day": 30
+  },
+  "fechaSalida": {
+    "year": 2023,
+    "month": 5,
+    "day": 22
+  },
+  "sexo": "F",
+  "ciudad": "Granada",
+  "posicion": "INGENIERO",
+  "salarioBase": 35000.0,
+  "salarioFinal": 29050.0,
+  "rotacion": true,
+  "antiguedad": 13
+}
+{
+  "nombre": "Miguel",
+  "apellido": "Reyes",
+  "fechaIngreso": {
+    "year": 2015,
+    "month": 2,
+    "day": 17
+  },
+  "fechaSalida": {
+    "year": 2023,
+    "month": 5,
+    "day": 22
+  },
+  "sexo": "M",
+  "ciudad": "Jaén",
+  "posicion": "ANALISTA",
+  "salarioBase": 40000.0,
+  "salarioFinal": 33200.0,
+  "rotacion": false,
+  "antiguedad": 8
+}
+{
+  "nombre": "Isidoro",
+  "apellido": "García",
+  "fechaIngreso": {
+    "year": 2022,
+    "month": 4,
+    "day": 21
+  },
+  "fechaSalida": {
+    "year": 2023,
+    "month": 5,
+    "day": 22
+  },
+  "sexo": "M",
+  "ciudad": "Madrid",
+  "posicion": "GERENTE",
+  "salarioBase": 50000.0,
+  "salarioFinal": 41500.0,
+  "rotacion": false,
+  "antiguedad": 1
+}

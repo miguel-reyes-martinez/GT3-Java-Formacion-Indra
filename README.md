@@ -29,3 +29,4 @@ Los siguientes ejercicios forman parte de una relación de ejercicios asiganada 
 * [Ejercicio 17 - MCV Banco Santander](Ejercicio17/)
 * [Ejercicio 18 - Spring](Ejercicio18/)
 * [Ejercicio Integrador III - Recetas](EjercicioIntegradorIII/)
+* [Modelo de Examen - Empleados](ModeloExamen/)
