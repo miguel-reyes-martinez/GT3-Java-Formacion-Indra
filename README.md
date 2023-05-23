@@ -30,3 +30,4 @@ Los siguientes ejercicios forman parte de una relación de ejercicios asiganada 
 * [Ejercicio 18 - Spring](Ejercicio18/)
 * [Ejercicio Integrador III - Recetas](EjercicioIntegradorIII/)
 * [Modelo de Examen - Empleados](ModeloExamen/)
+* [Modelo de ExamenII - Tiempo](ModeloExamenII/)
