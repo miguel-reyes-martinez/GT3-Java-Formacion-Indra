@@ -31,3 +31,4 @@ Los siguientes ejercicios forman parte de una relación de ejercicios asiganada 
 * [Ejercicio Integrador III - Recetas](EjercicioIntegradorIII/)
 * [Modelo de Examen - Empleados](ModeloExamen/)
 * [Modelo de ExamenII - Tiempo](ModeloExamenII/)
+* [Examen Final - Biblioteca](ExamenFinal/)
